@@ -3,11 +3,11 @@ package com.savand.rms.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.savand.rms.machine_resource.CpuResource;
-import com.savand.rms.machine_resource.MemoryResource;
-import com.savand.rms.machine_resource.NetworkBandwidthResource;
 import com.savand.rms.model.MicroService;
 import com.savand.rms.model.RequiredMachineResource;
+import com.softbistro.rms.machine_resource.CpuResource;
+import com.softbistro.rms.machine_resource.MemoryResource;
+import com.softbistro.rms.machine_resource.NetworkBandwidthResource;
 import com.softbistro.rms.statcollector.IStatsCollector;
 import com.softbistro.statCollector.CpuStatCollector;
 import com.softbistro.statCollector.MemoryStatCollector;

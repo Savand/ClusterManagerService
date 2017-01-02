@@ -24,7 +24,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.softbistro" level="debug"/>
+    <logger name="com" level="debug"/>
 
     <root level="info">
 <!--         <appender-ref ref="file"/> -->

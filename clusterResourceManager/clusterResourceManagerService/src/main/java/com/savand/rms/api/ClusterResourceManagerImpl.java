@@ -5,10 +5,10 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.savand.rms.controller.CollectorControllerImpl;
-import com.savand.rms.controller.ICollectorController;
 import com.savand.rms.dao.MicroServiceDaoImpl;
-import com.savand.rms.machine_resource.AbstractResource;
+import com.softbistro.rms.controller.CollectorControllerImpl;
+import com.softbistro.rms.controller.ICollectorController;
+import com.softbistro.rms.machine_resource.AbstractResource;
 import com.savand.rms.model.MicroService;
 import com.savand.rms.model.RequiredMachineResource;
 import com.savand.rms.util.ServiceAlocateUtilImpl;

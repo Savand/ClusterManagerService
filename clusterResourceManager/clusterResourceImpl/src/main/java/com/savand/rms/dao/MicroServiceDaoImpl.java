@@ -68,10 +68,16 @@ public class MicroServiceDaoImpl implements IMicroServiceDao {
 
   @Override
   public boolean deallocateService(MicroService service) {
+	 boolean result = false;
     LOGGER.debug("Stopping microservice");
-    services.remove(service.getId());
+    
+    if(services.containsKey(service.getId())){
+    	services.remove(service.getId());
+    	result=true;
+    }
+    
     LOGGER.debug("Microservice removed, resources deallocated");
-    return true;
+    return result;
   }
 
 }

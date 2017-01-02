@@ -2,8 +2,8 @@ package com.savand.rms.api;
 
 import java.util.List;
 
-import com.savand.rms.machine_resource.AbstractResource;
 import com.savand.rms.model.MicroService;
+import com.softbistro.rms.machine_resource.AbstractResource;
 import com.softbistro.rms.statcollector.IStatsCollector;
 
 /**

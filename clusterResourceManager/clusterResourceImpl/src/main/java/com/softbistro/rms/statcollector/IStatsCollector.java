@@ -1,6 +1,6 @@
 package com.softbistro.rms.statcollector;
 
-import com.savand.rms.machine_resource.AbstractResource;
+import com.softbistro.rms.machine_resource.AbstractResource;
 
 /**
  *  Interface should be implemented by each statistic collector</br>
